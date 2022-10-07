@@ -36,3 +36,20 @@
 #                 self.__color = "red"
 #             count += 1
 
+# a = TrafficLight("yellow")
+# a.running()
+# b = TrafficLight("green")
+# b.running()
+# c = TrafficLight()
+# c.running()
+
+# class Road():
+#     def __init__(self, length = 0, width = 0) -> None:
+#         self._length = length
+#         self._width = width
+
+#     def weight(self, weight = 25, thickness = 5):
+#         return self._length * self._width * (weight/1000) * (thickness /100)
+
+# road_m5 = Road(20, 5000)
+# print(road_m5.weight(25,5))
